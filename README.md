@@ -1,48 +1,42 @@
-## Minimal UI ([Free version](https://free.minimals.cc/))
+# Synk – Admin Dashboard UI
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+A modern, minimal **React Admin Dashboard UI** built using **React + Vite + TypeScript**.  
+This project focuses on clean design, reusable components, and fast performance.
 
-![preview](public/assets/images/minimal-free-preview.jpg)
+> This repository is a customized and self-maintained dashboard setup, adapted for learning, experimentation, and future product use.
 
-> Free React Admin Dashboard made with Material-UI components and React + Vite.js.
+---
 
-## Pages
+## Tech Stack
 
-- [Dashboard](https://free.minimals.cc/)
-- [Users](https://free.minimals.cc/user)
-- [Products](https://free.minimals.cc/products)
-- [Blog](https://free.minimals.cc/blog)
-- [Sign in](https://free.minimals.cc/sign-in)
-- [Not found](https://free.minimals.cc/404)
+- **React**
+- **Vite**
+- **TypeScript**
+- **Material UI (MUI)**
+- **ESLint + Prettier**
 
-## Quick start
+---
 
-- Clone the repo: `git clone https://github.com/minimal-ui-kit/material-kit-react.git`
-- Recommended: `Node.js v20.x`
-- **Install:** `npm i` or `yarn install`
-- **Start:** `npm run dev` or `yarn dev`
-- **Build:** `npm run build` or `yarn build`
-- Open browser: `http://localhost:3039`
+## Features
 
-## Upgrade to PRO Version
+- Responsive admin dashboard layout
+- Sidebar navigation
+- Dashboard analytics UI
+- User, product, and content pages
+- Clean and minimal design system
+- Fast development setup with Vite
 
-| Minimal Free                | [Minimal Pro](https://material-ui.com/store/items/minimal-dashboard/)                                   |
-| :-------------------------- | :------------------------------------------------------------------------------------------------------ |
-| **6** Pages                 | **70+** Pages                                                                                           |
-| **Partial** theme customize | **Fully** theme customize                                                                               |
-| -                           | **Next.js** version                                                                                     |
-| -                           | **TypeScript** version (Standard Plus and Extended license)                                             |
-| -                           | Design **Figma** file (Standard Plus and Extended license)                                              |
-| -                           | Authentication with **Amplify**, **Auth0**, **JWT**, **Firebase** and **Supabase**                      |
-| -                           | Light/dark mode, right-to-left, form validation... ([+more components](https://minimals.cc/components)) |
-| -                           | Complete users flows                                                                                    |
-| -                           | 1 year of free updates / 6 months of technical support                                                  |
-| -                           | Learn more: [Package & license](https://docs.minimals.cc/package)                                       |
+---
 
-## License
+## Project Structure
 
-Distributed under the [MIT](https://github.com/minimal-ui-kit/minimal.free/blob/main/LICENSE.md) license.
-
-## Contact us
-
-Email: support@minimals.cc
+```txt
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   └── theme/
+├── index.html
+├── vite.config.ts
+└── package.json
